@@ -91,7 +91,7 @@ export default function Home() {
         </section>
 
         {/* Audio Section */}
-        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+        {/* <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
             Featured Audio
           </h2>
@@ -109,7 +109,7 @@ export default function Home() {
               Add your audio files to the /public/audio/ directory and update the source paths above
             </p>
           </div>
-        </section>
+        </section> */}
         
         {/* Contact/Footer Section */}
         <footer className="text-center text-slate-600 dark:text-slate-400 mt-12">
