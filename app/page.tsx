@@ -1,64 +1,120 @@
-import Image from "next/image";
+import YouTube from '@/components/YouTube';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+      <main className="container mx-auto px-4 py-12 max-w-4xl">
+        {/* Header */}
+        <header className="text-center mb-10">
+          <h1 className="text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4">
+            Aidan Ashman
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-xl text-slate-600 dark:text-slate-400">
+            Biography & Creative Works
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        </header>
+
+        {/* Biography Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
+            About
+          </h2>
+          <div className="prose prose-lg dark:prose-invert max-w-none">
+            <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              Welcome to my biography site. This is a place where I share my story,
+              experiences, and creative works through various media formats.
+            </p>
+            <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
+              Throughout my journey, I&apos;ve explored many different paths and discovered
+              passions that have shaped who I am today. This site serves as a collection
+              of those experiences, featuring video and audio content that tells my story
+              in a more immersive way.
+            </p>
+            <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
+              Feel free to explore the embedded content below to learn more about my work
+              and experiences.
+            </p>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            Music Arrangements
+          </h2>
+          <div id="wax-and-wane" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              The Moon Doth Wax and Wane, performed by Walt Whitman choir.  Music arranged by Aidan Ashman.
+            </p>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            Talent Show Performances
+          </h2>
+          <div id="come-together" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="565wRqVgrto" title="Come Together" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Come Together (The Beatles), performed at Walt Whitman Talent Show with Aidan Ashman on bass guitar.
+            </p>
+          </div>
+          <div id="mr-blue-sky" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="_iLMRj52TBI" title="Mr. Blue Sky" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Mr. Blue Sky (Electric Light Orchestra), performed at Walt Whitman Talent Show with Aidan Ashman on lead vocals.
+            </p>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            A Capella Performances
+          </h2>
+          <div id="treasure" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="oE5sfrPXtNU" title="Treasure" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Treasure (Solid in Sound), performed by Aidan Ashman on lead vocals.
+            </p>
+          </div>
+        </section>
+
+        {/* Audio Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
+            Featured Audio
+          </h2>
+          <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-6">
+            <audio
+              controls
+              className="w-full"
+              preload="metadata"
+            >
+              <source src="/audio/sample.mp3" type="audio/mpeg" />
+              <source src="/audio/sample.ogg" type="audio/ogg" />
+              Your browser does not support the audio element.
+            </audio>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Add your audio files to the /public/audio/ directory and update the source paths above
+            </p>
+          </div>
+        </section>
+        
+        {/* Contact/Footer Section */}
+        <footer className="text-center text-slate-600 dark:text-slate-400 mt-12">
+          <p>© {new Date().getFullYear()} Aidan Ashman. All rights reserved.</p>
+        </footer>
       </main>
     </div>
   );
