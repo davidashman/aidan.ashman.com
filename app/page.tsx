@@ -90,6 +90,37 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            Full Choir Performances
+          </h2>
+          <div id="dulaman" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="IKbyt4VfSLQ" title="Dulaman" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Dulaman (Walt Whitman Tenor Bass Choir)
+            </p>
+          </div>
+          <div id="regnum-mundi" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="Vei0UE9KDyM" title="Regnum Mundi" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Regnum Mundi (ACDA National Honors Choir)
+            </p>
+          </div>
+          <div id="umi-sono-ai" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="Actnki8cciU" title="Umi Sono Ai" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+            Umi Sono Ai (ACDA National Honors Choir)
+            </p>
+          </div>
+        </section>
+
         {/* Audio Section */}
         {/* <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
