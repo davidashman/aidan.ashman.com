@@ -31,14 +31,15 @@ export default function Home() {
           </h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-              Welcome to my biography site. This is a place where I share my story,
-              experiences, and creative works through various media formats.
+              I’m a high school junior, classically trained in guitar, self-taught in piano, a vocalist, 
+              and an arranger from Bethesda, Maryland. I’ve performed in multiple regional and national 
+              honors choirs, sung with multiple advanced ensembles, and created arrangements for a cappella 
+              groups and school choirs. Outside of performing, I’ve taught music, worked in live sound and 
+              pit orchestra settings, and produced multi-track rehearsal recordings. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-              Throughout my journey, I&apos;ve explored many different paths and discovered
-              passions that have shaped who I am today. This site serves as a collection
-              of those experiences, featuring video and audio content that tells my story
-              in a more immersive way.
+              I recently developed ChoralPlayer, a practice tool built to support the growing library of 
+              practice tracks I create for choirs. Below are some highlights of my work. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
               Feel free to explore the embedded content below to learn more about my work
