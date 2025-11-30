@@ -121,6 +121,21 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            ChoralPlayer Demonstration
+          </h2>
+          <div id="choralplayer" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="zD-EhJ2mS6I" title="ChoralPlayer Demonstration" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Demonstration of the ChoralPlayer software, created by Aidan Ashman.
+            </p>
+          </div>
+        </section>
+
         {/* Audio Section */}
         {/* <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
