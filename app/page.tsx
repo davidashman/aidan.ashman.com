@@ -81,7 +81,7 @@ export default function Home() {
                 Your browser does not support the audio element.
               </audio>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-                The Steady Light, performed and recorded by Aidan Ashman, 2025, all vocal parts.
+                The Steady Light, originally arranged by Reginald Unterseher, performed and recorded by Aidan Ashman, 2025. This recording is composed of nearly 50 multi-tracked recordings, stacked. There is no audio processing on this recording aside from reverb. 
               </p>
             </div>
           </div>
