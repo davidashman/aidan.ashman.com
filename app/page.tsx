@@ -1,21 +1,31 @@
 import YouTube from '@/components/YouTube';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       <main className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Header */}
-        <header className="text-center mb-10">
-          <h1 className="text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4">
+        <header className="pb-4">
+          <h1 className="text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4 text-center">
             Aidan Ashman
           </h1>
-          <p className="text-xl text-slate-600 dark:text-slate-400">
+          <p className="text-xl text-slate-600 dark:text-slate-400 text-center mb-6">
             Biography & Creative Works
           </p>
+          <div className="flex justify-center -mb-16 relative z-10">
+            <Image
+              src="/aidan-square.png"
+              alt="Aidan Ashman"
+              width={150}
+              height={150}
+              className="rounded-full border-4 border-white dark:border-slate-700 shadow-xl"
+            />
+          </div>
         </header>
 
         {/* Biography Section */}
-        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8 pt-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
             About
           </h2>
@@ -49,6 +59,27 @@ export default function Home() {
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
               The Moon Doth Wax and Wane, performed by Walt Whitman choir.  Music arranged by Aidan Ashman.
             </p>
+          </div>
+        </section>
+
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            Solo Performances
+          </h2>
+          <div id="steady-light" className="pt-10">
+            <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-6">
+              <audio
+                controls
+                className="w-full"
+                preload="metadata"
+              >
+                <source src="/audio/sample.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+                The Steady Light, performed and recorded by Aidan Ashman on all vocal parts.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -136,27 +167,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Audio Section */}
-        {/* <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50 mb-6">
-            Featured Audio
-          </h2>
-          <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-6">
-            <audio
-              controls
-              className="w-full"
-              preload="metadata"
-            >
-              <source src="/audio/sample.mp3" type="audio/mpeg" />
-              <source src="/audio/sample.ogg" type="audio/ogg" />
-              Your browser does not support the audio element.
-            </audio>
-            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Add your audio files to the /public/audio/ directory and update the source paths above
-            </p>
-          </div>
-        </section> */}
-        
         {/* Contact/Footer Section */}
         <footer className="text-center text-slate-600 dark:text-slate-400 mt-12">
           <p>© {new Date().getFullYear()} Aidan Ashman. All rights reserved.</p>
