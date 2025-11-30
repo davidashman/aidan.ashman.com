@@ -120,7 +120,7 @@ export default function Home() {
               <YouTube code="oE5sfrPXtNU" title="Treasure" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Treasure (Solid in Sound), performed in 2023 by Aidan Ashman on lead vocals.
+              Treasure (Solid and Sound), performed in 2023 by Aidan Ashman on lead vocals.
             </p>
           </div>
         </section>
