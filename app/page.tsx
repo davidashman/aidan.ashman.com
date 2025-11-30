@@ -17,8 +17,8 @@ export default function Home() {
             <Image
               src="/aidan-square.png"
               alt="Aidan Ashman"
-              width={150}
-              height={150}
+              width={180}
+              height={180}
               className="rounded-full border-4 border-white dark:border-slate-700 shadow-xl"
             />
           </div>
