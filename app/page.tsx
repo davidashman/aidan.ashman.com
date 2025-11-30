@@ -166,7 +166,7 @@ export default function Home() {
               <YouTube code="zD-EhJ2mS6I" title="ChoralPlayer Demonstration" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Demonstration of the ChoralPlayer software, created by Aidan Ashman.
+              Demonstration of the ChoralPlayer software, choral practice tool created by Aidan Ashman.
             </p>
           </div>
         </section>
