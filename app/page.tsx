@@ -1,3 +1,5 @@
+'use client';
+
 import YouTube from '@/components/YouTube';
 import Image from 'next/image';
 
@@ -69,12 +71,13 @@ export default function Home() {
           </h2>
           <div id="steady-light" className="pt-10">
             <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-6">
+              <p className="text-2xl font-semibold text-slate-900 dark:text-slate-50 mb-4">The Steady Light</p>
               <audio
                 controls
                 className="w-full"
                 preload="metadata"
               >
-                <source src="/audio/sample.mp3" type="audio/mpeg" />
+                <source src="/audio/thesteadylight.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
@@ -132,7 +135,7 @@ export default function Home() {
               <YouTube code="IKbyt4VfSLQ" title="Dulaman" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Dulaman (Walt Whitman Tenor Bass Choir)
+              Dulaman (Walt Whitman Tenor Bass Choir) - Aidan Ashman solo at 1:01
             </p>
           </div>
           <div id="regnum-mundi" className="pt-10">
