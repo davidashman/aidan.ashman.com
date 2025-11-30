@@ -60,7 +60,7 @@ export default function Home() {
               <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane, performed by Walt Whitman choir.  Music arranged by Aidan Ashman.
+              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Music arranged by Aidan Ashman.
             </p>
           </div>
         </section>
@@ -81,7 +81,7 @@ export default function Home() {
                 Your browser does not support the audio element.
               </audio>
               <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-                The Steady Light, performed and recorded by Aidan Ashman on all vocal parts.
+                The Steady Light, performed and recorded by Aidan Ashman, 2025, all vocal parts.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function Home() {
               <YouTube code="565wRqVgrto" title="Come Together" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Come Together (The Beatles), performed at Walt Whitman Talent Show with Aidan Ashman on bass guitar.
+              Come Together (The Beatles), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on bass guitar.
             </p>
           </div>
           <div id="mr-blue-sky" className="pt-10">
@@ -105,7 +105,7 @@ export default function Home() {
               <YouTube code="_iLMRj52TBI" title="Mr. Blue Sky" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Mr. Blue Sky (Electric Light Orchestra), performed at Walt Whitman Talent Show with Aidan Ashman on lead vocals.
+              Mr. Blue Sky (Electric Light Orchestra), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on lead vocals.
             </p>
           </div>
         </section>
@@ -120,7 +120,7 @@ export default function Home() {
               <YouTube code="oE5sfrPXtNU" title="Treasure" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Treasure (Solid in Sound), performed by Aidan Ashman on lead vocals.
+              Treasure (Solid in Sound), performed in 2023 by Aidan Ashman on lead vocals.
             </p>
           </div>
         </section>
@@ -135,7 +135,7 @@ export default function Home() {
               <YouTube code="IKbyt4VfSLQ" title="Dulaman" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Dulaman (Walt Whitman Tenor Bass Choir) - Aidan Ashman solo at 1:01
+              Dulaman (2025 Walt Whitman Tenor Bass Choir) - Aidan Ashman solo at 1:01
             </p>
           </div>
           <div id="regnum-mundi" className="pt-10">
@@ -143,7 +143,7 @@ export default function Home() {
               <YouTube code="Vei0UE9KDyM" title="Regnum Mundi" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Regnum Mundi (ACDA National Honors Choir)
+              Regnum Mundi (2025 ACDA National Honors Choir)
             </p>
           </div>
           <div id="umi-sono-ai" className="pt-10">
@@ -151,7 +151,7 @@ export default function Home() {
               <YouTube code="Actnki8cciU" title="Umi Sono Ai" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-            Umi Sono Ai (ACDA National Honors Choir)
+            Umi Sono Ai (2025 ACDA National Honors Choir)
             </p>
           </div>
         </section>
