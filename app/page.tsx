@@ -40,8 +40,9 @@ export default function Home() {
               pit orchestra settings, and produced multi-track rehearsal recordings. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-              I recently developed ChoralPlayer, a practice tool built to support the growing library of 
-              practice tracks I create for choirs. Below are some highlights of my work. 
+              I recently developed <a href="https://www.choralplayer.com" target="_blank">ChoralPlayer</a>, 
+              a practice tool built to support the growing library of practice tracks I create for choirs. 
+              Below are some highlights of my work. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
               Feel free to explore the embedded content below to learn more about my work
