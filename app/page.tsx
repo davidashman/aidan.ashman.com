@@ -108,6 +108,14 @@ export default function Home() {
               Mr. Blue Sky (Electric Light Orchestra), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on lead vocals.
             </p>
           </div>
+          <div id="signed-sealed-delivered" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="jTiAnPaMdHQ" title="Signed, Sealed, Delivered I'm Yours" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Signed, Sealed, Delivered I'm Yours (Stevie Wonder), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+            </p>
+          </div>
         </section>
 
         {/* Video Section */}
@@ -151,7 +159,23 @@ export default function Home() {
               <YouTube code="Actnki8cciU" title="Umi Sono Ai" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-            Umi Sono Ai (2025 ACDA National Honors Choir)
+              Umi Sono Ai (2025 ACDA National Honors Choir)
+            </p>
+          </div>
+          <div id="holding-the-light" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="C6BSrttzSmM" title="Holding the Light" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Holding the Light (2026 Maryland State Honors Choir)
+            </p>
+          </div>
+          <div id="hold-fast-to-dreams" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="z6mGYkgsnaM" title="Hold Fast to Dreams" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Hold Fast to Dreams (2026 Maryland State Honors Choir)
             </p>
           </div>
         </section>
@@ -166,7 +190,7 @@ export default function Home() {
               <YouTube code="zD-EhJ2mS6I" title="ChoralPlayer Demonstration" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Demonstration of the ChoralPlayer software, choral practice tool created by Aidan Ashman.
+              Demonstration of the ChoralPlayer software, choral practice tool created by Aidan Ashman.  Learn more at <a href="https://www.choralplayer.com" target="_blank">https://www.choralplayer.com</a>.
             </p>
           </div>
         </section>
