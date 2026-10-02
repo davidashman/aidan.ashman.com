@@ -9,12 +9,12 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Header */}
         <header className="pb-4">
-          <h1 className="text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4 text-center">
+          <h1 className="text-5xl font-bold text-slate-900 dark:text-slate-50 mb-6 text-center">
             Aidan Ashman
           </h1>
-          <p className="text-xl text-slate-600 dark:text-slate-400 text-center mb-6">
+          {/* <p className="text-xl text-slate-600 dark:text-slate-400 text-center mb-6">
             Biography & Creative Works
-          </p>
+          </p> */}
           <div className="flex justify-center -mb-16 relative z-10">
             <Image
               src="/aidan-square.png"
@@ -33,9 +33,8 @@ export default function Home() {
           </h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-              I’m a high school junior, classically trained in guitar, self-taught in piano, a vocalist, 
-              and an arranger from Bethesda, Maryland. I’ve performed in multiple regional and national 
-              honors choirs, sung with multiple advanced ensembles, and created arrangements for a cappella 
+              I’m a guitarist, pianist, vocalist, arranger, producer and songwriter from Bethesda, Maryland. 
+              I’ve performed in multiple regional and national honors choirs, sung with multiple advanced ensembles, and created arrangements for a cappella 
               groups and school choirs. Outside of performing, I’ve taught music, worked in live sound and 
               pit orchestra settings, and produced multi-track rehearsal recordings. 
             </p>
@@ -45,8 +44,7 @@ export default function Home() {
               Below are some highlights of my work. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-              Feel free to explore the embedded content below to learn more about my work
-              and experiences.
+              Feel free to explore the content below to learn more about my work and experiences.
             </p>
           </div>
         </section>
@@ -54,22 +52,31 @@ export default function Home() {
         {/* Video Section */}
         <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            Music Arrangements
+            Technology and Entrepreneurship
           </h2>
-          <div id="wax-and-wane" className="pt-10">
+          <div id="choralplayer" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
-              <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
+              <YouTube code="zD-EhJ2mS6I" title="ChoralPlayer Demonstration" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Music arranged by Aidan Ashman.
+              Demonstration of the ChoralPlayer software, choral practice tool created by Aidan Ashman.  Learn more at <a href="https://www.choralplayer.com" target="_blank">https://www.choralplayer.com</a>.
             </p>
           </div>
         </section>
 
+        {/* Video Section */}
         <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            Solo Performances
+            Songwriting and Production
           </h2>
+          <div id="keep-it-casual" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="b3U09g5YyFA" title="Keep It Casual" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Keep It Casual - written, performed and produced by Aidan Ashman, Lexi Killian, Bella Ashley and Brady Blincoe at the Clive Davis Institute for Recorded Music, Summer High School Program, NYU - Tisch School of the Arts 
+            </p>
+          </div>
           <div id="steady-light" className="pt-10">
             <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-6">
               <p className="text-2xl font-semibold text-slate-900 dark:text-slate-50 mb-4">The Steady Light</p>
@@ -81,18 +88,49 @@ export default function Home() {
                 <source src="/audio/thesteadylight.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
-              <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-                The Steady Light, originally arranged by Reginald Unterseher, performed and recorded by Aidan Ashman, 2025. This recording is composed of nearly 50 multi-tracked recordings, stacked. There is no audio processing on this recording aside from reverb. 
-              </p>
             </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              The Steady Light, originally arranged by Reginald Unterseher, performed and recorded by Aidan Ashman, 2025. This recording is composed of nearly 50 multi-tracked recordings, stacked. There is no audio processing on this recording aside from reverb. 
+            </p>
           </div>
         </section>
 
         {/* Video Section */}
         <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            Talent Show Performances
+            Arrangements
           </h2>
+          <div id="wax-and-wane" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Music arranged by Aidan Ashman.
+            </p>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
+          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
+            Live Performances
+          </h2>
+          <div id="signed-sealed-delivered" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="jTiAnPaMdHQ" title="Signed, Sealed, Delivered I'm Yours" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Signed, Sealed, Delivered I'm Yours (Stevie Wonder), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+            </p>
+          </div>
+          <div id="signed-sealed-delivered" className="pt-10">
+            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
+              <YouTube code="wYWN8XLuI5c" title="Signed, Sealed, Delivered I'm Yours" />
+            </div>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
+              Rhiannon (Fleetwood Mac), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+            </p>
+          </div>
           <div id="come-together" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
               <YouTube code="565wRqVgrto" title="Come Together" />
@@ -109,27 +147,12 @@ export default function Home() {
               Mr. Blue Sky (Electric Light Orchestra), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on lead vocals.
             </p>
           </div>
-          <div id="signed-sealed-delivered" className="pt-10">
-            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
-              <YouTube code="jTiAnPaMdHQ" title="Signed, Sealed, Delivered I'm Yours" />
-            </div>
-            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Signed, Sealed, Delivered I'm Yours (Stevie Wonder), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
-            </p>
-          </div>
-        </section>
-
-        {/* Video Section */}
-        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            A Capella Performances
-          </h2>
           <div id="treasure" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
               <YouTube code="oE5sfrPXtNU" title="Treasure" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Treasure (Solid and Sound), performed in 2023 by Aidan Ashman on lead vocals.
+              Treasure (Bruno Mars), performed by Solid and Sound with Aidan Ashman on lead vocals.
             </p>
           </div>
         </section>
@@ -137,14 +160,14 @@ export default function Home() {
         {/* Video Section */}
         <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
           <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            Full Choir Performances
+            Choir Performances
           </h2>
           <div id="dulaman" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
               <YouTube code="IKbyt4VfSLQ" title="Dulaman" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Dulaman (2025 Walt Whitman Tenor Bass Choir) - Aidan Ashman solo at 1:01
+              Dulaman (Walt Whitman Tenor Bass Choir - 2025) - Aidan Ashman solo at 1:01
             </p>
           </div>
           <div id="regnum-mundi" className="pt-10">
@@ -152,7 +175,7 @@ export default function Home() {
               <YouTube code="Vei0UE9KDyM" title="Regnum Mundi" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Regnum Mundi (2025 ACDA National Honors Choir)
+              Regnum Mundi (ACDA National Honors Choir - 2025)
             </p>
           </div>
           <div id="umi-sono-ai" className="pt-10">
@@ -160,7 +183,7 @@ export default function Home() {
               <YouTube code="Actnki8cciU" title="Umi Sono Ai" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Umi Sono Ai (2025 ACDA National Honors Choir)
+              Umi Sono Ai (ACDA National Honors Choir - 2025)
             </p>
           </div>
           <div id="holding-the-light" className="pt-10">
@@ -168,7 +191,7 @@ export default function Home() {
               <YouTube code="C6BSrttzSmM" title="Holding the Light" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Holding the Light (2026 Maryland State Honors Choir)
+              Holding the Light (Maryland State Honors Choir - 2026)
             </p>
           </div>
           <div id="hold-fast-to-dreams" className="pt-10">
@@ -176,22 +199,7 @@ export default function Home() {
               <YouTube code="z6mGYkgsnaM" title="Hold Fast to Dreams" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Hold Fast to Dreams (2026 Maryland State Honors Choir)
-            </p>
-          </div>
-        </section>
-
-        {/* Video Section */}
-        <section className="bg-white dark:bg-slate-800 rounded-2xl shadow-lg p-8 mb-8">
-          <h2 className="text-3xl font-semibold text-slate-900 dark:text-slate-50">
-            ChoralPlayer Demonstration
-          </h2>
-          <div id="choralplayer" className="pt-10">
-            <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
-              <YouTube code="zD-EhJ2mS6I" title="ChoralPlayer Demonstration" />
-            </div>
-            <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Demonstration of the ChoralPlayer software, choral practice tool created by Aidan Ashman.  Learn more at <a href="https://www.choralplayer.com" target="_blank">https://www.choralplayer.com</a>.
+              Hold Fast to Dreams (Maryland State Honors Choir - 2026)
             </p>
           </div>
         </section>

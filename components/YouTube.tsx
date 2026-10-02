@@ -9,7 +9,7 @@ export default function YouTube({ code, title, className = "" }: YouTubeProps) {
     <div className={`aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700 ${className}`}>
       <iframe
         className="w-full h-full"
-        src={`https://www.youtube.com/embed/${code}?modestbranding=1&rel=0&showinfo=0`}
+        src={`https://www.youtube.com/embed/${code}?modestbranding=1&rel=0&showinfo=0&cc_load_policy=0`}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
