@@ -34,8 +34,9 @@ export default function Home() {
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
               I’m a guitarist, pianist, vocalist, arranger, producer and songwriter from Bethesda, Maryland. 
-              I’ve performed in multiple regional and national honors choirs, sung with multiple advanced ensembles, and created arrangements for a cappella 
-              groups and school choirs. Outside of performing, I’ve taught music, worked in live sound and 
+              I’ve performed in multiple regional and national honors choirs, sung with advanced ensembles, 
+              played guitar, keyboards and bass with several bands, and created arrangements for a cappella groups and school choirs.  
+              Outside of performing, I’ve taught music, worked in live sound and 
               pit orchestra settings, and produced multi-track rehearsal recordings. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
@@ -105,7 +106,7 @@ export default function Home() {
               <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Music arranged by Aidan Ashman.
+              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Arrangment and piano performance by Aidan Ashman.
             </p>
           </div>
         </section>
@@ -199,7 +200,7 @@ export default function Home() {
               <YouTube code="z6mGYkgsnaM" title="Hold Fast to Dreams" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Hold Fast to Dreams (Maryland State Honors Choir - 2026)
+              Hold Fast to Dreams (ACDA Regional Honors Choir - 2026)
             </p>
           </div>
         </section>
