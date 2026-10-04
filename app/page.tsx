@@ -33,10 +33,10 @@ export default function Home() {
           </h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-              I’m a guitarist, pianist, vocalist, arranger, producer and songwriter from Bethesda, Maryland. 
+              I’m a guitarist, pianist, vocalist, drummer, arranger, producer and songwriter from Bethesda, Maryland. 
               I’ve performed in multiple regional and national honors choirs, sung with advanced ensembles, 
-              played guitar, keyboards and bass with several bands, and created arrangements for a cappella groups and school choirs.  
-              Outside of performing, I’ve taught music, worked in live sound and 
+              played guitar, bass, keyboards and drums with several bands, and created arrangements for a cappella groups and school choirs.  
+              Outside of performing, I’ve taught music, conducted orchestras, worked in live sound and 
               pit orchestra settings, and produced multi-track rehearsal recordings. 
             </p>
             <p className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
@@ -75,7 +75,7 @@ export default function Home() {
               <YouTube code="b3U09g5YyFA" title="Keep It Casual" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Keep It Casual - written, performed and produced by Aidan Ashman, Lexi Killian, Bella Ashley and Brady Blincoe at the Clive Davis Institute for Recorded Music, Summer High School Program, NYU - Tisch School of the Arts 
+              Keep It Casual - Written, performed and produced by Aidan Ashman, Lexi Killian, Bella Ashley and Brady Blincoe at the Clive Davis Institute for Recorded Music, Summer High School Program, NYU - Tisch School of the Arts 
             </p>
           </div>
           <div id="steady-light" className="pt-10">
@@ -91,7 +91,7 @@ export default function Home() {
               </audio>
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Steady Light, originally arranged by Reginald Unterseher, performed and recorded by Aidan Ashman, 2025. This recording is composed of nearly 50 multi-tracked recordings, stacked. There is no audio processing on this recording aside from reverb. 
+              The Steady Light - Originally arranged by Reginald Unterseher, performed and recorded by Aidan Ashman, 2025. This recording is composed of nearly 50 multi-tracked recordings, stacked. There is no audio processing on this recording aside from reverb. 
             </p>
           </div>
         </section>
@@ -106,7 +106,7 @@ export default function Home() {
               <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane, performed by 2025 Walt Whitman Festival Choir.  Arrangment and piano performance by Aidan Ashman.
+              The Moon Doth Wax and Wane - Performed by 2025 Walt Whitman Festival Choir. Arrangment and piano performance by Aidan Ashman.
             </p>
           </div>
         </section>
@@ -121,7 +121,7 @@ export default function Home() {
               <YouTube code="jTiAnPaMdHQ" title="Signed, Sealed, Delivered I'm Yours" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Signed, Sealed, Delivered I'm Yours (Stevie Wonder), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+              Signed, Sealed, Delivered I'm Yours (Stevie Wonder) - Performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
             </p>
           </div>
           <div id="signed-sealed-delivered" className="pt-10">
@@ -129,7 +129,7 @@ export default function Home() {
               <YouTube code="wYWN8XLuI5c" title="Signed, Sealed, Delivered I'm Yours" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Rhiannon (Fleetwood Mac), performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+              Rhiannon (Fleetwood Mac) - Performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
             </p>
           </div>
           <div id="come-together" className="pt-10">
@@ -137,7 +137,7 @@ export default function Home() {
               <YouTube code="565wRqVgrto" title="Come Together" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Come Together (The Beatles), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on bass guitar.
+              Come Together (The Beatles) - Performed at 2025 Walt Whitman Talent Show with Aidan Ashman on bass guitar.
             </p>
           </div>
           <div id="mr-blue-sky" className="pt-10">
@@ -145,7 +145,7 @@ export default function Home() {
               <YouTube code="_iLMRj52TBI" title="Mr. Blue Sky" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Mr. Blue Sky (Electric Light Orchestra), performed at 2025 Walt Whitman Talent Show with Aidan Ashman on lead vocals.
+              Mr. Blue Sky (Electric Light Orchestra) - Performed at 2025 Walt Whitman Talent Show with Aidan Ashman on lead vocals.
             </p>
           </div>
           <div id="treasure" className="pt-10">
@@ -153,7 +153,7 @@ export default function Home() {
               <YouTube code="oE5sfrPXtNU" title="Treasure" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Treasure (Bruno Mars), performed by Solid and Sound with Aidan Ashman on lead vocals.
+              Treasure (Bruno Mars) - Performed by Solid and Sound with Aidan Ashman on lead vocals.
             </p>
           </div>
         </section>
