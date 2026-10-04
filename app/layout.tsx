@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Biography | Aidan Ashman",
+  title: "Aidan Ashman",
   description: "A biography site featuring embedded video and audio content",
 };
 
