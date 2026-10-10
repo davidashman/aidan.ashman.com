@@ -103,10 +103,10 @@ export default function Home() {
           </h2>
           <div id="wax-and-wane" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
-              <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
+              <YouTube code="m5Ozn9L6zqY" title="Wax and Wane" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane - Performed by 2025 Walt Whitman Festival Choir. Arrangement and piano performance by Aidan Ashman.
+              Wax and Wane - Arrangement and piano performance by Aidan Ashman. Choral performance by 2025 Walt Whitman Festival Choir.
             </p>
           </div>
         </section>
