@@ -106,7 +106,7 @@ export default function Home() {
               <YouTube code="m5Ozn9L6zqY" title="The Moon Doth Wax and Wane" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Moon Doth Wax and Wane - Performed by 2025 Walt Whitman Festival Choir. Arrangment and piano performance by Aidan Ashman.
+              The Moon Doth Wax and Wane - Performed by 2025 Walt Whitman Festival Choir. Arrangement and piano performance by Aidan Ashman.
             </p>
           </div>
         </section>
@@ -121,7 +121,7 @@ export default function Home() {
               <YouTube code="jTiAnPaMdHQ" title="Signed, Sealed, Delivered I'm Yours" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              Signed, Sealed, Delivered I'm Yours (Stevie Wonder) - Performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
+              Signed, Sealed, Delivered (I'm Yours) (Stevie Wonder) - Performed at 2026 Walt Whitman Talent Show with Aidan Ashman on guitar.
             </p>
           </div>
           <div id="signed-sealed-delivered" className="pt-10">
