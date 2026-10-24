@@ -106,7 +106,7 @@ export default function Home() {
               <YouTube code="N9rbCuyBsSg" title="National Anthem" />
             </div>
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
-              The Star-Spangled Banner - Arranged and conducted by Aidan Ashman. Choral performance by 2026-2027 Walt Whitman Choir Seniors at the Homecoming football game.
+              The Star-Spangled Banner - Arranged and conducted by Aidan Ashman. Choral performance by 2026-2027 senior choir members at the Walt Whitman High School Homecoming football game.
             </p>
           </div>
           <div id="wax-and-wane" className="pt-10">
