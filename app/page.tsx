@@ -108,6 +108,11 @@ export default function Home() {
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
               The Star-Spangled Banner - Arranged and conducted by Aidan Ashman. Choral performance by 2026-2027 senior choir members at the Walt Whitman High School Homecoming football game.
             </p>
+            <a href="star-spangled-banner-aidan-ashman.pdf" target="_blank">
+              <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-2 px-5 mt-2 text-sm text-slate-600 dark:text-slate-400 w-50">
+                Download Arrangement
+              </div>
+            </a>
           </div>
           <div id="wax-and-wane" className="pt-10">
             <div className="aspect-video w-full rounded-lg overflow-hidden bg-slate-200 dark:bg-slate-700">
@@ -116,6 +121,11 @@ export default function Home() {
             <p className="text-sm text-slate-600 dark:text-slate-400 mt-4 italic">
               Wax and Wane - Arrangement and piano performance by Aidan Ashman. Choral performance by 2025 Walt Whitman Festival Choir.
             </p>
+            <a href="wax-and-wane-aidan-ashman.pdf" target="_blank">
+              <div className="bg-white dark:bg-slate-900 rounded-lg shadow-lg p-2 px-5 mt-2 text-sm text-slate-600 dark:text-slate-400 w-50">
+                Download Arrangement
+              </div>
+            </a>
           </div>
         </section>
 
